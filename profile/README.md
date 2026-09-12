@@ -1,8 +1,15 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Honey-Chain/.github/main/profile/logo.png" width="120" alt="HoneyChain logo" />
-
-# HoneyChain
+<table>
+  <tr>
+    <td width="120" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/Honey-Chain/.github/main/profile/logo.png" width="100" alt="HoneyChain logo" />
+    </td>
+    <td valign="middle">
+      <h1>HoneyChain</h1>
+    </td>
+  </tr>
+</table>
 
 **Blockchain-based honey traceability & smart beekeeping management**
 
