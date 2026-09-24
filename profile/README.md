@@ -15,7 +15,7 @@
 
 Built for **Smart India Hackathon 2026** · Problem Statement `26021` · Ministry of MSME
 
-[![Website](https://img.shields.io/badge/website-honeychain.app-D69E1F?style=flat-square)]([https://www.honeychain.in/](https://www.honeychain.in/))
+[![Website](https://img.shields.io/badge/website-honeychain.in-D69E1F?style=flat-square)]([https://www.honeychain.in/](https://www.honeychain.in/))
 [![License](https://img.shields.io/badge/license-MIT-4A2E12?style=flat-square)](LICENSE)
 [![Network](https://img.shields.io/badge/network-Ethereum%20Sepolia-4B7B4E?style=flat-square)](https://sepolia.etherscan.io)
 
