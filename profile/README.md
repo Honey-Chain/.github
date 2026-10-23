@@ -24,35 +24,35 @@ Built for **Smart India Hackathon 2026** · Problem Statement `26021` · Ministr
 
 ---
 
-## 🔑 Judge & Evaluation Demo Credentials
+## Evaluation & Demo Credentials
 
 > [!IMPORTANT]
 > **Universal Demo Password:** `Password123!`  
 > **Direct Login Portal:** [https://www.honeychain.in/login](https://www.honeychain.in/login)  
 > *(Logging in with any account below automatically routes to that role's dedicated portal)*
 
-| Stakeholder Portal | Login Email | Key Workflow to Evaluate |
+| Stakeholder Role | Login Email | Key Workflow to Evaluate |
 | :--- | :--- | :--- |
-| 🛡️ **Administrator** | `admin@honeychain.org` | Member organization approvals, system metrics & user administration |
-| 🐝 **Beekeeper** | `beekeeper@honeychain.org` | Live IoT hive telemetry, AI health alerts, harvests & on-chain batch creation |
-| 🔬 **Quality Laboratory** | `lab@honeychain.org` | Moisture assays, purity testing & Sepolia smart contract attestation |
-| 🏭 **Processor** | `processor@honeychain.org` | Honey processing, bottling, batch packaging & custody transfer |
-| 🚚 **Distributor** | `distributor@honeychain.org` | Cold-chain dispatch, transit temperature tracking & custody transfer |
-| ⚖️ **Regulatory Auditor** | `auditor@honeychain.org` | Quality audits, compliance checks & emergency batch recall execution |
+| **System Administrator** | `admin@honeychain.org` | Member organization approvals, system metrics & user administration |
+| **Beekeeper** | `beekeeper@honeychain.org` | Live IoT hive telemetry, AI health alerts, harvests & on-chain batch creation |
+| **Quality Laboratory** | `lab@honeychain.org` | Moisture assays, purity testing & Sepolia smart contract attestation |
+| **Processing Plant** | `processor@honeychain.org` | Honey processing, bottling, batch packaging & custody transfer |
+| **Cold-Chain Distributor** | `distributor@honeychain.org` | Cold-chain dispatch, transit temperature tracking & custody transfer |
+| **Regulatory Auditor** | `auditor@honeychain.org` | Quality audits, compliance checks & emergency batch recall execution |
 
 ---
 
-### 🔍 Consumer QR & Traceability Verification (No Login Required)
+### Public Consumer Verification (No Authentication Required)
 
 Test the public consumer verification experience without logging in:
 
-> 📱 **Verification Portal:** [https://www.honeychain.in/verify](https://www.honeychain.in/verify)
+> **Verification Portal:** [https://www.honeychain.in/verify](https://www.honeychain.in/verify)
 
 | Sample Batch | Status | Verification Scenario | Direct Link |
 | :--- | :--- | :--- | :--- |
-| `HC-VERIFIED-2026` | 🟢 **Verified** | Grade-A pure honey with full IoT history & Sepolia hash anchor | [Verify Batch ↗](https://www.honeychain.in/verify/HC-VERIFIED-2026) |
-| `HC-PENDING-2026` | 🟡 **Pending** | Harvested batch currently awaiting laboratory testing | [Verify Batch ↗](https://www.honeychain.in/verify/HC-PENDING-2026) |
-| `HC-RECALLED-2026` | 🔴 **Recalled** | Failed purity test demonstrating tamper-evident alert on scan | [Verify Batch ↗](https://www.honeychain.in/verify/HC-RECALLED-2026) |
+| `HC-VERIFIED-2026` | Verified (Grade A) | Certified honey with full IoT history & Sepolia hash anchor | [Verify Batch](https://www.honeychain.in/verify/HC-VERIFIED-2026) |
+| `HC-PENDING-2026` | Pending Lab | Harvested batch currently awaiting laboratory testing | [Verify Batch](https://www.honeychain.in/verify/HC-PENDING-2026) |
+| `HC-RECALLED-2026` | Flagged / Recalled | Failed purity test demonstrating tamper-evident alert on scan | [Verify Batch](https://www.honeychain.in/verify/HC-RECALLED-2026) |
 
 ---
 
@@ -62,13 +62,13 @@ Every jar of honey should be able to prove where it came from. HoneyChain follow
 
 Built to solve real problems facing India's rural beekeepers under KVIC's Honey Mission: counterfeit honey, weak market linkages, and zero traceability from apiary to consumer.
 
-## How it works
+## Architecture Pipeline
 
 ```text
-Hive (IoT sensors) ──► AI Health Model ──► Harvest ──► Batch Registered On-Chain
-                             │
-                             ▼
-Consumer Verifies ◄── QR Generated ◄── Custody Transferred ◄── Lab Certified
+Hive (IoT Sensors) ──> AI Health Model ──> Harvest ──> Batch Registered On-Chain
+                                                          │
+                                                          v
+Consumer Verifies <── QR Generated <── Custody Transferred <── Lab Certified
 ```
 
 ## Repositories
@@ -82,7 +82,7 @@ Consumer Verifies ◄── QR Generated ◄── Custody Transferred ◄──
 | [`honeychain-yield-ml`](https://github.com/Honey-Chain/HoneyChain_Yield_ML) | Python microservice — LightGBM harvest window and yield prediction |
 | [`honeychain-iot-simulator`](https://github.com/Honey-Chain/HoneyChain_IoT_Simulator) | IoT hive telemetry simulator streaming MQTT/HTTP environmental readings |
 
-## Tech stack
+## Tech Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -94,10 +94,10 @@ Consumer Verifies ◄── QR Generated ◄── Custody Transferred ◄──
 
 ## Team
 
-Built by a small team across backend, frontend, blockchain, ML, and hardware.
+Built by a team across backend, frontend, blockchain, ML, and hardware engineering.
 
 ---
 
 <div align="center">
-<sub>🐝 From hive to shelf, every jar tells the truth.</sub>
+<sub>From hive to shelf, every jar tells the truth.</sub>
 </div>
